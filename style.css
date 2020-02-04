@@ -1,11 +1,51 @@
 body{
-    background-color: gray;
+    background-color: lightgray;
     font-family: sans-serif;
     text-align: justify;
+    margin: 0 0 2em;
 }
 h1{
     background-color: black;
     color: white;
     text-align: right;
-
+    margin-top: 0px;
+    padding: 10px;
+}
+h2{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: white 5px solid;
+}
+p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+p.fecha{
+    text-align: center;   
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: black 3px solid;
+}
+time{
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+strong{
+    font-variant: small-caps;
+}
+q{
+    font-family: serif;
+    border-bottom: red 1px dashed;
+    font-size: 150%;
+}
+span.cargo{
+    background-color: white;
+    color: red;
+}
+span.lugar{
+    color: blue;
 }
